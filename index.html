@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>City Game</title>
+    </head>
+    <body>
+        <script src="game.js"></script>
+        <script>
+            var fns = Game();
+        </script>
+
+        <table>
+            <tr>
+                <td>Money</td>
+                <td id="money"></td>
+            </tr>
+            <tr>
+                <td>Buildings</td>
+                <td id="buildings"></td>
+            </tr>
+            <tr>
+                <td>Citizens</td>
+                <td id="citizens"></td>
+            </tr>
+            <tr>
+                <td>Cities</td>
+                <td id="cities"></td>
+            </tr>
+        </table>
+
+        <button onclick="fns.addBuilding()">Add building</button>
+        <button onclick="fns.addCity()">Add city</button>
+    </body>
+</html>
